@@ -1,0 +1,98 @@
+
+.container{
+display: flex;
+flex-direction: column;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.search .bar{
+    background-color: rgb(219, 219, 219);
+    border: 0;
+    width: 90%;
+    border-radius: 20px;
+    padding: 8px;
+    
+}
+.search i{
+    position: absolute;
+    min-width: 40px;
+    padding: 8px;
+    margin-left: 70%;
+}
+.head-part{
+    display: flex;
+    margin-top: 50px;
+}
+.Additional-heading{
+    margin-top: 20px;
+    color: purple;
+}
+.head-part .left{
+   width: 50%;
+   margin-left: 5%;
+}
+.head-part .right{
+   width: 50%;
+   margin-left: 65%;
+}
+.icon{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(200, 166, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+
+}
+
+.icon:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+
+.noun{
+    padding: 10px;
+    margin-left: 60px;
+}
+p{
+    margin-left: 65px;
+}
+.verb{
+   margin-left: 60px;
+   padding: 5px;
+}
+.Features ul{
+    padding: 2rem;
+    
+}
+
+
+.navbar{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.line{
+    height: 1px;
+    width: 90%;
+    margin: auto;
+    border: 1px solid gray;
+}
+.sound{
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
